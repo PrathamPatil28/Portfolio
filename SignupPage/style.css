@@ -1,0 +1,68 @@
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+.outer-box{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left ,#3ed8ff,#e27df0);
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+   top: 40%;
+   transform: translateY(-50%);
+   padding: 20px 40px;
+   /* background-color: rgb(134, 188, 219); */
+   border-radius: 8px;
+   background-color: white;
+   /* border: solid wheat; */
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #3103e8;
+    text-align: center;
+}
+.signup-header p {
+    margin: 10px;
+    font-size: 0.8rem;
+    color: #555;
+    text-align: center;
+}
+.signup-body {
+    margin: 20px 0;
+}
+.signup-body p {
+    margin: 10px 0;
+}
+.signup-body p label {
+    display: block;
+
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+#submit{
+    background-color: rgb(110, 86, 181);
+    border-radius: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#submit:hover{
+    background-color:  rgb(68, 10, 243);
+
+}
+
+
+
